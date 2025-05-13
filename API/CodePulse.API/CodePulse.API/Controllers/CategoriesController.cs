@@ -5,11 +5,13 @@ using CodePulse.API.Repositories.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace CodePulse.API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    //[ApiController]
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryRepository categoryRepository;
@@ -20,7 +22,7 @@ namespace CodePulse.API.Controllers
         }
         [HttpPost]
 
-        public async Task<IActionResult> CreateCategory(CreateCategoryRequestDto request)
+        public async Task<IActionResult> CreateCategoryAsync(CreateCategoryRequestDto request)
         {
 
             //MAP DTO TO DOMAIN MODEL
@@ -46,7 +48,7 @@ namespace CodePulse.API.Controllers
 
         [HttpGet]
 
-        public async Task<IActionResult> GetAllCategories()
+        public async Task<IActionResult> GetAllCategoriesAsync()
         {
             var categories = await categoryRepository.GetAllAsync();
 
@@ -65,7 +67,7 @@ namespace CodePulse.API.Controllers
             return Ok(response);
         }
 
-        //https://localhost:7132/api/Categories/4E0F01E7-4F70-4269-E5A3-08DD7DAAA8A4
+        
         [HttpGet]
         [Route("{id:Guid}")]
 

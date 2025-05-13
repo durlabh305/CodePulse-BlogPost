@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\createblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\createblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\domain\\blogpostcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\blogpostcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\migrations\\20250422061818_added-relationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\migrations\\20250422061818_added-relationship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\wipr203809\\videos\\codepulse\\api\\codepulse.api\\codepulse.api\\repositories\\implementation\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEBB500E-C5F8-4178-A52A-3D1DD511ECCC}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implementation\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,19 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogPostsController.cs",
-              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\ImagesController.cs",
+              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\ImagesController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T05:07:53.402Z",
+              "WhenOpened": "2025-05-13T05:14:15.157Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -64,92 +48,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CategoryDto.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T05:34:25.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogPostRepository.cs",
-              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:52:39.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BlogPostDto.cs",
-              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\BlogPostDto.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\BlogPostDto.cs",
-              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\BlogPostDto.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\BlogPostDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABYAAAAAAAAAA==",
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\IImageRepository.cs",
+              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IImageRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\IImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:33:13.075Z",
+              "WhenOpened": "2025-05-13T05:14:20.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CreateBlogPostRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\ImageRepository.cs",
+              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\ImageRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\ImageRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:27:50.324Z",
+              "WhenOpened": "2025-05-13T04:39:04.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250422061818_Added-Relationship.cs",
-              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Migrations\\20250422061818_Added-Relationship.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Migrations\\20250422061818_Added-Relationship.cs",
-              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Migrations\\20250422061818_Added-Relationship.cs",
-              "RelativeToolTip": "CodePulse.API\\Migrations\\20250422061818_Added-Relationship.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
+              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
+              "RelativeToolTip": "CodePulse.API\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC8AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:18:18.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BlogPostCategory.cs",
-              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPostCategory.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\BlogPostCategory.cs",
-              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPostCategory.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogPostCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:12:56.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlogPost.cs",
-              "DocumentMoniker": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "ToolTip": "C:\\Users\\WIPR203809\\Videos\\CodePulse\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T06:12:55.615Z",
+              "WhenOpened": "2025-05-13T04:38:45.024Z",
               "EditorCaption": ""
             }
           ]

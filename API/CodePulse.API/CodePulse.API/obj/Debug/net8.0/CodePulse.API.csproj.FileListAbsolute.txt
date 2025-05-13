@@ -153,6 +153,7 @@ C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\n
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\CodePulse.API.csproj.CoreCompileInputs.cache
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\CodePulse.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\CodePulse.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\CodePulse.API.sourcelink.json
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\scopedcss\bundle\CodePulse.API.styles.css
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\staticwebassets.development.json
