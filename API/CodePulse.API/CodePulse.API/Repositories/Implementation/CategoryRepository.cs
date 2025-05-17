@@ -1,4 +1,5 @@
-﻿using CodePulse.API.Data;
+﻿using System.Linq;
+using CodePulse.API.Data;
 using CodePulse.API.Models.Domain;
 using CodePulse.API.Repositories.Interface;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -34,9 +35,22 @@ namespace CodePulse.API.Repositories.Implementation
             return existingModel;
         }
 
-        public async Task<IEnumerable<BlogPostCategory>> GetAllAsync()
+        public async Task<IEnumerable<BlogPostCategory>> GetAllAsync(string? query = null)
         {
-            return await dbContext.BlogPostsCategories.ToListAsync();
+            var categories =  dbContext.BlogPostsCategories.AsQueryable();
+
+            //Filter
+            if(string.IsNullOrWhiteSpace(query) == false)
+            {
+                categories = categories.Where(x => x.Name.Contains(query));
+            }
+
+            //Sorting
+
+            //Pagination
+
+            return await categories.ToListAsync();
+            //return await dbContext.BlogPostsCategories.ToListAsync();
         }
 
         public async Task<BlogPostCategory?> GetByIdAsync(Guid id)

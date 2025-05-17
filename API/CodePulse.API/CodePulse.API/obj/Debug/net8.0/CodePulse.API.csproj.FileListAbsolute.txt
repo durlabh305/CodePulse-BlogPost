@@ -171,3 +171,6 @@ C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\n
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\CodePulse.API.pdb
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\CodePulse.API.genruntimeconfig.cache
 C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\obj\Debug\net8.0\ref\CodePulse.API.dll
+C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\WIPR203809\Videos\CodePulse\API\CodePulse.API\CodePulse.API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll

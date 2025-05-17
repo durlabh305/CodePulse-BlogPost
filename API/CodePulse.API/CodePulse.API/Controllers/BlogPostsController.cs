@@ -1,6 +1,7 @@
 ﻿using CodePulse.API.Models.Domain;
 using CodePulse.API.Models.DTO;
 using CodePulse.API.Repositories.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
@@ -20,8 +21,10 @@ namespace CodePulse.API.Controllers
             this.blogPostRepository = blogPostRepository;
             this.categoryRepository = categoryRepository;
         }
-        [HttpPost]
 
+        //Creating BlogPost
+        [HttpPost]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> CreateBlogPost([FromBody] CreateBlogPostRequestDto request)
         {
             //CONVERT DTO TO DOMAIN MODEL
@@ -72,6 +75,7 @@ namespace CodePulse.API.Controllers
             return Ok(response);
         }
 
+        //Getting All BlogPosts
         [HttpGet]
 
         public async Task<IActionResult> GetAllBlogPosts()
@@ -105,6 +109,7 @@ namespace CodePulse.API.Controllers
             return Ok(response);
         }
 
+        //Getting BlogPost by ID
         [HttpGet]
         [Route("{id:Guid}")]
 
@@ -141,10 +146,45 @@ namespace CodePulse.API.Controllers
             return Ok(response);    
         }
 
+        //Getting BlogPost by urlHandle
+        [HttpGet]
+        [Route("{urlHandle}")]
+
+        public async Task<IActionResult> GetBlogPostByUrlHandle([FromRoute] string urlHandle)
+        {
+            //Getting blogpost details from repository
+            var blogpost = await blogPostRepository.GetByUrlHandleAsync(urlHandle);
+
+            //MAP DOMAIN TO DTO
+
+            var response = new BlogPostDto
+            {
+                Id = blogpost.Id,
+                Title = blogpost.Title,
+                ShortDescription = blogpost.ShortDescription,
+                UrlHandle = blogpost.UrlHandle,
+                Content = blogpost.Content,
+                FeaturedImageUrl = blogpost.FeaturedImageUrl,
+                PublishedDate = blogpost.PublishedDate,
+                Author = blogpost.Author,
+                IsVisible = blogpost.IsVisible,
+                BlogPostCategories = blogpost.BlogPostCategories.Select(x => new CategoryDto
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    UrlHandle = x.UrlHandle,
+                }).ToList(),
+            };
+
+            return Ok(response);
+        }
+
+
+        //Updating BlogPost
         [HttpPut]
         [Route("{id:Guid}")]
-
-        public async Task<IActionResult> UpdateBlogPostById([FromRoute] Guid id, UpdateBlogPostRequestDto request)
+       // [Authorize(Roles = "Writer")]
+        public async Task<IActionResult> UpdateBlogPostById([FromRoute] Guid id, [FromBody] UpdateBlogPostRequestDto request)
         {
             //Convert DTO TO DOMAIN MODEL
             var blogpost = new BlogPost
@@ -166,7 +206,7 @@ namespace CodePulse.API.Controllers
                 var existingCategory = await categoryRepository.GetByIdAsync(categoryGuid);
                 if (existingCategory != null)
                 {
-                    blogpost.BlogPostCategories.Add(existingCategory);
+                   blogpost.BlogPostCategories.Add(existingCategory);
                 }
             }
 
@@ -205,7 +245,7 @@ namespace CodePulse.API.Controllers
 
         [HttpDelete]
         [Route("{id:Guid}")]
-
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> DeleteBlogPost([FromRoute]Guid id)
         {
             var deletedblogpost = await blogPostRepository.DeleteAsync(id);

@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "CodePulse.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CodePulse.API.Models.DTO.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodePulse.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CodePulse.API.Models.DTO.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CodePulse.API.Controllers.BlogPostsController",
     "Method": "CreateBlogPost",
     "RelativePath": "api/BlogPosts",
@@ -55,49 +87,9 @@
         "IsRequired": true
       },
       {
-        "Name": "Title",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "ShortDescription",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Content",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "FeaturedImageUrl",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "UrlHandle",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "PublishedDate",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "Author",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "IsVisible",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "BlogPostCategories",
-        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "CodePulse.API.Models.DTO.UpdateBlogPostRequestDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -113,6 +105,22 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodePulse.API.Controllers.BlogPostsController",
+    "Method": "GetBlogPostByUrlHandle",
+    "RelativePath": "api/BlogPosts/{urlHandle}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "urlHandle",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -146,7 +154,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
